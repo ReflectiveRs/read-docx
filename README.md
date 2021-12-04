@@ -1,6 +1,7 @@
 # read-docx
 A simple library to read text from a docx file
 
+```go
 url := "https://example/com/document.docx"
 doc1 := word.NewDocInUrl(url)
 err1 := doc1.Read()
@@ -16,3 +17,4 @@ if err2 != nil {
 	log.Fatal(err2)
 }
 fmt.Println(doc2.GetContentText())
+```
