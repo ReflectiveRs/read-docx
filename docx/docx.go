@@ -8,6 +8,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
+	"strings"
 )
 
 type docInUrl struct {
@@ -170,5 +171,5 @@ func exactTextDoc(content *string) string {
 		}
 	}
 
-	return string(result)
+	return strings.Trim(string(result), "\n ")
 }

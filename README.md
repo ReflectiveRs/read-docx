@@ -1,5 +1,6 @@
 # read-docx
 A simple library to read text from a docx file
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/opencontrol/doc-template)](https://goreportcard.com/report/github.com/opencontrol/doc-template)
 
 ```go
